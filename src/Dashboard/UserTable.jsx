@@ -15,6 +15,7 @@ const UserTable = ({ userData }) => {
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Roll No</th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Course</th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Batch</th>
+            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">email</th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Address</th>
           </tr>
         </thead>
@@ -25,6 +26,7 @@ const UserTable = ({ userData }) => {
     <td className="px-6 py-4 whitespace-nowrap">{user.rno}</td>
     <td className="px-6 py-4 whitespace-nowrap">{user.cource}</td>
     <td className="px-6 py-4 whitespace-nowrap">{user.batch}</td>
+    <td className="px-6 py-4 whitespace-nowrap">{user.email}</td>
     <td className="px-6 py-4 whitespace-nowrap">{user.address}</td>
   </tr>
  

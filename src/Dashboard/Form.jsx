@@ -10,6 +10,7 @@ function Form() {
     
     const renamedFormData = {
       name: formDataObject.name,
+      email: formDataObject.email,
       rno: formDataObject.rno,
       batch: formDataObject.batch,
       address: formDataObject.address,
